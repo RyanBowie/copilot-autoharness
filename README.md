@@ -4,6 +4,8 @@
 
 This is a port of the idea behind [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) (built for Claude Code) to the GitHub Copilot desktop app. The code was written from scratch for the Copilot app's extension SDK and Automations.
 
+> **Community project, built with GitHub Copilot, under the [MIT licence](LICENSE).** Not a Microsoft product and not supported by Microsoft or GitHub; provided as is, without warranty. See [Licence and disclaimer](#licence-and-disclaimer).
+
 ## How it works
 
 ```
@@ -85,3 +87,7 @@ The tests set `AUTOHARNESS_HOME` to a temporary directory, so they never touch y
 ## Credits
 
 The concept comes from [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) (MIT). This repo is an independent implementation for the GitHub Copilot app, also under the MIT license.
+
+## Licence and disclaimer
+
+**Community project, built with GitHub Copilot.** Released under the [MIT licence](LICENSE). It isn't a Microsoft or GitHub product and isn't supported by Microsoft or GitHub. Provided "as is", without warranty of any kind; no SLA or support commitment. Review what the extension and Automations do before installing them.
